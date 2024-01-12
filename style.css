@@ -1,0 +1,75 @@
+header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  font-family: "Bebas Neue";
+  font-size: 3em;
+  color: white;
+  padding: 2rem 2rem;
+  gap: 2rem;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.6);
+}
+
+header .navbar {
+  display: flex;
+  gap: 2rem;
+  font-size: 0.6em;
+}
+
+header .navbar a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s ease;
+  transition: transform 0.3s ease;
+}
+
+header .navbar a:hover {
+  color: #e4501c;
+  transform: scale(1.1);
+}
+
+.home-page {
+  height: 100vh;
+  height: 100vh;
+  background-image: url("./image/home-bk.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.menu-page {
+  height: 100vh;
+  height: 100vh;
+  background-image: url("./image/menu-bk.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.about-page {
+  height: 100vh;
+  height: 100vh;
+  background-image: url("./image/about-bk.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+footer {
+  background-color: black;
+  text-align: center;
+  padding: 10vh;
+  color: white;
+}
+
+.title {
+  /*position: absolute;
+  bottom: 50px;
+  left: 50px;*/
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  font-family: "Bebas Neue";
+  font-weight: bold;
+  font-size: 3em;
+  color: white;
+  border: 2px solid white;
+}
