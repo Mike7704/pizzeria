@@ -134,6 +134,10 @@ header .navbar a:hover {
   color: white;
 }
 
+.contact-page a:hover {
+  color: #f1622e;
+}
+
 .title {
   display: flex;
   flex-direction: column;
